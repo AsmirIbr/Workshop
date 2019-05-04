@@ -4,7 +4,7 @@ import Bluebird from 'bluebird';
 import jwt from 'jsonwebtoken';
 
 // import secrets from '../../config/secrets.json';
-import models from '../models/index';
+import models from '../model/index';
 
 import Sequelize from 'sequelize';
 const Op = Sequelize.Op;
@@ -223,7 +223,7 @@ const reset = async (req, res, next) => {
 
 export default {
   create,
-  getModels,
+  getUsers,
   update,
   login,
   resetPassword,

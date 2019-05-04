@@ -3,7 +3,7 @@ import actions from "./action";
 
 const payoneerRoute = Router();
 
-payoneerRoute.get("/wire", action.list)
-payoneerRoute.post("/wire", actions.create)
+payoneerRoute.get("/payoneer", actions.list)
+payoneerRoute.post("/payoneer", actions.create)
 
 export default payoneerRoute

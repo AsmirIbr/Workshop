@@ -1,11 +1,11 @@
 import hat from 'hat';
-import models from '../models/index';
+import models from '../model/index';
 
 
 const Affiliate = models.Affiliate;
 
 const list = async(req, res, next) => {
- const result: Array = await Affiliate.findAll({
+ const result = await Affiliate.findAll({
    include: [
      {
        model: models.User
@@ -15,6 +15,9 @@ const list = async(req, res, next) => {
  res.status(200).send(result);
  await next;
 };
+export default {
+    list
+}
 
 export default {
   list,

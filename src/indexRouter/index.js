@@ -10,7 +10,7 @@ import wire from '../wire/index';
 const indexRouter = Router();
 
 indexRouter.use(affiliate.route);
-indexRouter.use(commisions.route);
+// indexRouter.use(commisions.route);
 indexRouter.use(user.route);
 indexRouter.use(payoneer.route);
 indexRouter.use(paypal.route);
