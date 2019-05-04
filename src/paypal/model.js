@@ -1,7 +1,8 @@
 export default (sequelize, DataType) => {
     const PayPal = sequelize.define("paypal", {
         id: {
-            type: DataType.STRING
+            type: DataType.STRING,
+            primaryKey: true
         },
         PayPal: {
             type: DataType.STRING

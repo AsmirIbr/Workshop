@@ -3,7 +3,7 @@ import actions from './action';
 
 const affiliateRouter = Router();
 
-productsRouter.get('/affiliate', actions.list);
+affiliateRouter.get('/affiliate', actions.list);
 // productsRouter.get('/affiliate/', actions.get);
 // productsRouter.post('/affiliate', actions.create);
 // productsRouter.put('/affiliate/', actions.update);

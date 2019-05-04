@@ -11,5 +11,6 @@ export default (sequelize, DataType) => {
             type: DataType.STRING,
             allowNull: false
         }
-    })
+    });
+    return Payoneer
 }
