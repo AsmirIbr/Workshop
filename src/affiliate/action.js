@@ -16,3 +16,10 @@ const list = async(req, res, next) => {
  await next;
 };
 
+export default {
+  list,
+  // get,
+  // create,
+  // update,
+  // del
+}
