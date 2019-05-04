@@ -22,7 +22,7 @@ models.Affiliate.hasMany(models.User);
 models.PayPal.belongsTo(models.User);  
 models.Wire.belongsTo(models.User);  
 models.Payoneer.belongsTo(models.User);  
-models.User.hasMany(models.Commisions);
+models.Commisions.belongsTo(models.Affiliate);
 
 models.connection = connection;
 models.Sequelize = Sequelize;

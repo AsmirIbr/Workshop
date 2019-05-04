@@ -2,12 +2,8 @@ export default (sequelize, DataType) => {
  const Commisions = sequelize.define('commisions',
  {
    id: {
-     type: DataType.INTEGER,
-     autoIncrement: true,
+     type: DataType.STRING,
      primaryKey: true,
-   },
-   commision: {
-     type: DataType.INTEGER,
    },
    url: {
        type: DataType.STRING,
@@ -15,6 +11,13 @@ export default (sequelize, DataType) => {
    amount: {
        type: DataType.INTEGER,
    },
+   status: {
+     type: DataType.ENUM,
+     values: ["Invalid payment", "Valid payment"],
+   },
+   discount:{
+     type: Data.Type.STRING,
+   }
  });
 return Commisions;
 } 
