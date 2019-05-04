@@ -16,7 +16,7 @@ export default (sequelize, DataType) => {
      values: ["Invalid payment", "Valid payment"],
    },
    discount:{
-     type: Data.Type.STRING,
+     type: DataType.STRING,
    }
  });
 return Commisions;
