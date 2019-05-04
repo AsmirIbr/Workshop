@@ -1,0 +1,29 @@
+{
+  "name": "afiliate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "hat": "*",
+    "helmet": "*",
+    "jsonwebtoken": "*",
+    "mysql2": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "sequelize": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
