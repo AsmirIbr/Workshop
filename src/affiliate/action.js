@@ -18,11 +18,3 @@ const list = async(req, res, next) => {
 export default {
     list
 }
-
-export default {
-  list,
-  // get,
-  // create,
-  // update,
-  // del
-}
